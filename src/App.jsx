@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 const App = () => {
     return (
         <div className='h-screen relative bg-white overflow-hidden'>
-            <div className='absolute w-full h-full top-0 left-0 flex justify-center items-center pointer-events-none'>
+            {/* <div className='absolute w-full h-full top-0 left-0 flex justify-center items-center pointer-events-none'>
                 <div className='w-[1200px] h-full flex justify-center gap-7'>
                     {Array.from({ length: 12 }).map((_, index) => (
                         <div
@@ -15,7 +15,7 @@ const App = () => {
                         ></div>
                     ))}
                 </div>                
-            </div>
+            </div> */}
             <div className='relative z-10 h-full overflow-auto'>
                 <Navbar />
                 <Routes>

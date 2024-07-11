@@ -11,8 +11,9 @@ import PersonImg1 from '../assets/images/Image - 1.png'
 import PersonImg2 from '../assets/images/Image - 2.png'
 import PersonImg3 from '../assets/images/Image - 3.png'
 import PersonImg4 from '../assets/images/Image - 4.png'
-import { MdOutlineRocketLaunch } from 'react-icons/md'
-import { TbMessage2Bolt } from 'react-icons/tb'
+import Food from '../assets/images/Food.png'
+import Grocery from '../assets/images/Grocery.png'
+import Retail from '../assets/images/Retail.png'
 
 const LandingPage = () => {
     return (
@@ -54,7 +55,7 @@ const LandingPage = () => {
                 <img src={CustomersLogoFrame1} className='w-full' />
             </div>
 
-            <div className='p-20 flex justify-center items-center gap-10 h-fit my-20'>
+            <div className='p-20 flex justify-center items-center gap-10 h-fit mt-14'>
                 <div className='w-full'>
                     <div className='w-fit mx-auto'>
                         <img src={PersonImg1} className='ml-32' />
@@ -64,15 +65,15 @@ const LandingPage = () => {
                     </div>
                 </div>
                 
-                <div className='w-full h-fit bg-slate-200 p-5'>
+                <div className='w-full h-fit p-5'>
                     <p className='w-full text-primary-theme-color font-medium text-lg'>EXPLORE FEASTO</p>
                     <div className='max-w-[38rem] text-gray-800 font-black text-[54px] leading-snug mt-3'>
                         How <span className='text-primary-theme-color'>FEASTO</span> help your business grow?
                     </div>
-                    <div className='mt-10 max-w-[38rem] bg-white'>
+                    <div className='mt-10 max-w-[38rem]'>
                         <div className='mb-6'>
                             <div className='flex justify-start items-center gap-4'>
-                                <MdOutlineRocketLaunch className='text-primary-theme-color w-10 h-10' />
+                                <span class="iconify material-symbols--rocket-launch-outline text-primary-theme-color w-10 h-10"></span>
                                 <span className='text-xl font-bold'>Launch your store in 3 mins</span>
                             </div>
                             <div className='mt-4 text-gray-600 text-lg leading-relaxed'>
@@ -81,7 +82,7 @@ const LandingPage = () => {
                         </div>
                         <div className='mb-6'>
                             <div className='flex justify-start items-center gap-4'>
-                                <TbMessage2Bolt className='text-primary-theme-color w-10 h-10' />
+                                <span class="iconify tabler--message-2-bolt text-primary-theme-color w-10 h-10"></span>
                                 <span className='text-xl font-bold'>Faster response time</span>
                             </div>
                             <div className='mt-4 text-gray-600 text-lg leading-relaxed'>
@@ -90,13 +91,44 @@ const LandingPage = () => {
                         </div>
                         <div className='mb-6'>
                             <div className='flex justify-start items-center gap-4'>
-                                <TbMessage2Bolt className='text-primary-theme-color w-10 h-10' />
-                                <span className='text-xl font-bold'>Faster response time</span>
+                                <span class="iconify fluent--arrow-trending-lines-24-filled text-primary-theme-color w-10 h-10"></span>
+                                <span className='text-xl font-bold'>Increased visibility</span>
                             </div>
                             <div className='mt-4 text-gray-600 text-lg leading-relaxed'>
-                                Quickly respond to customer queries and orders through WhatsApp, boosting customer satisfaction and loyalty.
+                                Expand your reach beyond physical locations with an online storefront that’s accessible 24/7.
                             </div>
                         </div>
+                        <div className='mb-6'>
+                            <div className='flex justify-start items-center gap-4'>
+                                <span class="iconify mdi--controller-outline text-primary-theme-color w-10 h-10"></span>
+                                <span className='text-xl font-bold'>Ultimate control over your storefront</span>
+                            </div>
+                            <div className='mt-4 text-gray-600 text-lg leading-relaxed'>
+                                You can set your own opening hours, define delivery zones and charges, select payment methods and handle offers effortlessly.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='w-full py-20 px-28 h-fit'>
+                <div className='w-fit mx-auto'>
+                    <div className='w-full text-primary-theme-color font-medium text-lg text-center'>
+                        STATER TEMPLATES
+                    </div>
+                    <div className='max-w-[50rem] text-gray-800 text-[54px] text-center font-black leading-snug mt-3'>
+                        Kickstart your online stores with amazing templates
+                    </div>
+                </div>
+                <div className='w-full flex justify-center items-center gap-10 mt-20'>
+                    <div className='w-fit'>
+                        <img src={Food} className='max-w-96' />
+                    </div>
+                    <div className='w-fit'>
+                        <img src={Grocery} className='max-w-96' />
+                    </div>
+                    <div className='w-fit'>
+                        <img src={Retail} className='max-w-96' />
                     </div>
                 </div>
             </div>

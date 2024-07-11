@@ -1,3 +1,5 @@
+const { addIconSelectors } = require('@iconify/tailwind');
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
@@ -11,5 +13,7 @@ export default {
         }
       },
     },
-    plugins: [],
+    plugins: [
+        addIconSelectors(['material-symbols', 'tabler', 'fluent', 'mdi']),
+    ],
 }
