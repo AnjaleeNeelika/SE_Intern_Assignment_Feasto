@@ -16,7 +16,7 @@ const App = () => {
                     ))}
                 </div>                
             </div>
-            <div className='relative z-10 h-full'>
+            <div className='relative z-10 h-full overflow-auto'>
                 <Navbar />
                 <Routes>
                     <Route path='/' element={<LandingPage />} />
