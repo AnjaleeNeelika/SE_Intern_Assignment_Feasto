@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 import { Route, Routes } from 'react-router-dom';
+import './App.css';
 
 const App = () => {
     return (

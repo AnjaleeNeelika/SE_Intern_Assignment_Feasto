@@ -219,15 +219,15 @@ const LandingPage = () => {
                                 <span class="iconify mdi--check text-primary-theme-color w-5 h-5"></span>
                                 <span className='text-base font-regular text-gray-800'>Unlimited offer creation</span>
                             </div>
-                            <div className='flex items-center gap-2 text-gray-400 mt-3'>
+                            <div className='strikethrough flex items-center gap-2 text-gray-400 mt-3'>
                                 <span class="iconify mdi--window-close w-5 h-5"></span>
                                 <span className='text-base font-regular'>Monthly 2 hrs Marketing support</span>
                             </div>
-                            <div className='flex items-center gap-2 text-gray-400 mt-3'>
+                            <div className='strikethrough flex items-center gap-2 text-gray-400 mt-3'>
                                 <span class="iconify mdi--window-close w-5 h-5"></span>
                                 <span className='text-base font-regular'>Premium customer care</span>
                             </div>
-                            <div className='flex items-center gap-2 text-gray-400 mt-3'>
+                            <div className='strikethrough flex items-center gap-2 text-gray-400 mt-3'>
                                 <span class="iconify mdi--window-close w-5 h-5"></span>
                                 <span className='text-base font-regular'>Custom domain</span>
                             </div>
@@ -244,7 +244,7 @@ const LandingPage = () => {
                                     <div className='w-full text-lg text-primary-theme-color text-center font-semibold'>PRO - Annual plan</div>
                                     <div className='w-full text-center mt-4'>
                                         <div className='w-full'>
-                                            <div className='w-full text-2xl text-gray-400 font-semibold'>$9.99</div>
+                                            <div className='strikethrough w-full text-2xl text-gray-400 font-semibold'>$9.99</div>
                                             <div className='w-full text-5xl text-gray-800 font-bold mt-2'>$7.5</div>
                                         </div>
                                         <div className='text-gray-500 text-base font-regular mt-2'>
