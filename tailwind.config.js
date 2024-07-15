@@ -14,6 +14,6 @@ export default {
       },
     },
     plugins: [
-        addIconSelectors(['material-symbols', 'tabler', 'fluent', 'mdi']),
+        addIconSelectors(['material-symbols', 'tabler', 'fluent', 'mdi', 'akar-icons']),
     ],
 }
