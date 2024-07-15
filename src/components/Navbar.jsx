@@ -6,7 +6,7 @@ import PrimaryThemeColorButton from './PrimaryThemeColorButton';
 
 const Navbar = () => {
     return (
-        <div className='w-full bg-transparent border border-b-gray-200 py-[26px] px-[120px] flex justify-between items-center'>
+        <div className='w-full bg-white border border-b-gray-200 py-[26px] px-[120px] flex justify-between items-center'>
             <div className='flex justify-between items-center gap-10'>
                 <img src={Logo} />
                 <ul className='flex justify-between items-center gap-10 text-gray-800 font-medium'>
